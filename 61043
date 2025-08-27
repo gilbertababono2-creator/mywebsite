@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Fast Food Contact</title>
+  <style>
+    *{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box ;
+  font-family:times 'Times New Roman', Times, serif;
+}
+body{
+  height:100vh ;
+  width:100%;
+  box-sizing:border-box ;
+} 
+
+.logo{
+  font-size:clamp(1.2rem,calc(10vw+1rem),3rem);
+  color:#fff ;
+  font-family:times 'Times New Roman', Times, serif;
+}
+.logo:first-letter{
+  font-size:3rem;
+}
+span{
+  color:#fff ;
+}
+  
+nav{
+  width:100%;
+  position:relative  ;
+  top:0;
+  background:green;
+  margin:0;
+  overflow:hidden ;
+}
+
+ul li{
+  color:#fff ;
+  display:inline ;
+  list-style-type:none ;
+  float:left;
+  margin:0.5rem;
+}
+ul li a{
+  color:#fff ;
+  display:flex ;
+  font-size:1.2rem;
+  align-items:center ;
+  justify-content:center ;
+  text-decoration:none;
+}
+a:hover{
+  background:white ;
+  color:#111;
+  padding:10%;
+  border-radius:8px;
+}
+    h2, p{
+      font-size:clamp(1.5rem,calc(9vw+1rem), 2rem);
+    }
+    a{
+      color:#111;
+    }
+   .container{
+     max-width:100%;
+     height: auto;
+     background:green;
+     padding:8% 10%;
+     margin:20px;
+     border-radius:10%;
+   }
+  .container h2{
+    text-align:center ;
+    color:#fff;
+  }
+  label{
+    text-align:center ;
+    color:#fff;
+  }
+  input{
+    text-align:center ;
+    margin:5% 5%;
+    padding:10px;
+    border-radius:8px;
+    border:none ;
+    outline:none ;
+  }
+  textarea{
+    padding:10px;
+    border:none ;
+    outline:none ;
+    margin:5% 5%;
+  }
+  input[type=button]{
+    background:transparent;
+    border-bottom:1px solid #fff;
+    margin-left:5rem;
+  }
+  </style>
+</head>
+
+<body>
+      <header>
+        <nav>
+    <div class="logo">
+      FAST <span>FOOD.COM</span>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="recipe.html">RECIPE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <article class="contact">
+    <h2>CONTACT FAST FOOD.COM</h2>
+    <p> FAST FOOD.COM IS LOCATED GLOBALLY WORLD WIDE.
+        CONTACT FAAT FOOD.COM VIA EMAIL ADDRESS <a href="mailto:gilbertababono2@gmail.com">gilbertababono2@gmail.com</a>
+        OR VIA MOBILE NUMBER +233 55 624 8182 FOR MORE INFORMATION OR ENQUIRIES
+        YOU CAN ALSO FOLLOW US ON OUR SOCIAL MEDIA PLATFORMS
+        INSTAGRAM <a href="https://www.instagram.com/mcdonal360/?utm_source=qr&r=nametag">
+          INSTAGRAM 
+        </a>
+    </p>
+</article>
+
+<aside>
+  <div class="container ">
+    <h2>SEND A MESSAGE </h2><br>
+    <form action="https://formspree.io/f/mdkdrbqp"method="post">
+      <label for="USERNAME ">FULLNAME:<input tyle="text"id="username"required></label><br>
+      <label for="email">EMAIL:<br><input type="email"id="email"required></label><br>
+      <label for="textarea">MESSAGE:<br><textarea name="email message"required></textarea></label><br>
+      <input type="button" value="SUBMIT">
+    </form>
+  </div>
+
+</aside>
+</body>
+
+</html>

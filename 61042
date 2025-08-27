@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fast food recipe</title>
+  <style>
+    *{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box ;
+  font-family:times 'Times New Roman', Times, serif;
+}
+body{
+  height:100vh ;
+  width:100%;
+} 
+
+.logo{
+  font-size:clamp(1.2rem,calc(10vw+1rem),3rem);
+  color:#fff ;
+  font-family:times 'Times New Roman', Times, serif;
+}
+.logo:first-letter{
+  font-size:3rem;
+}
+span{
+  color:#fff ;
+}
+  
+nav{
+  width:100%;
+  position:relative  ;
+  top:0;
+  background:green;
+  margin:0;
+  overflow:hidden ;
+}
+
+ul li{
+  color:#fff ;
+  display:inline ;
+  list-style-type:none ;
+  float:left;
+  margin:0.5rem;
+}
+ul li a{
+  color:#fff ;
+  display:flex ;
+  font-size:1.2rem;
+  align-items:center ;
+  justify-content:center ;
+  text-decoration:none;
+}
+a:hover{
+  background:white ;
+  color:#111;
+  padding:10%;
+  border-radius:8px;
+}
+h1{
+  text-align:center;
+  display:flex ;
+  flex-wrap:wrap;
+}
+   .jollof{
+      max-width:100%;
+      height:auto;
+      padding:2rem;
+      background:whitesmoke ;
+      display:flex;
+      flex-wrap:nowrap  ;
+      flex-direction:column  ;
+      border-radius:10%;
+      box-shadow:0 8px 5px 5px rgba(0,0,0,0.1 );
+   }
+   .jollof img{
+     max-width:100%;
+     aspect-ratio:1;
+     object-fit:cover ;
+     transition:all 1s;
+   }
+   .jollof img:hover{
+     transform:scale(1.1);
+   }
+  .meat{
+      max-width:100%;
+      height:auto;
+      margin-top:15px;
+      padding:2rem;
+      background:whitesmoke ;
+      display:flex;
+      flex-wrap:nowrap  ;
+      flex-direction:column  ;
+      border-radius:10%;
+      box-shadow:0 8px 5px 5px rgba(0,0,0,0.1 );
+      transition:all 2s;
+   }
+   .meat img:hover{
+     transform:scale(1.1);
+   }
+  
+ .meat img{
+   max-width:100%;
+   aspect-ratio:1;
+   object-fit: cover ;
+   transition:all 1s ;
+ }
+  </style>
+</head>
+
+<body>
+  
+</body>
+  <header>
+    <nav>
+      <div class="logo">
+        FAST <span>FOOD.COM</span>
+      </div>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="recipe.html">RECIPE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>RECIPES TO PREPARE NIGERIAN'S JOLLOF RICE</h1>
+ <section class="jollof">
+   <h2>JOLLOF RICE</h2>
+     <img src="IMG_20250805_050617.png"alt="">
+     <h3>INGREDIENTS NEEDED TO PREPARE NIGERIAN'S JOLLOF RICE</h3>
+      <ol>
+        <li>RICE</li>
+        <li>CARRIOT</li>
+        <li>OIL</li>
+        <li>CARBAGES</li>
+        <li>TOMATOES</li>
+      </ol>
+ </section>
+ <section class="meat">
+   <h2>MEAT AND GARI</h2>
+   <img src="IMG_20250805_051022.png"alt="">
+   <h3>INGREDIENTS TO PREPARE NIGERIAN'S MEAT AND GARI</h3>
+<ol>
+  <li>GARI</li>
+  <li> COW MEAT</li>
+  <li> ONION </li>
+  <li>LETUS </li>
+</ol>
+ </section>
+  <main>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>Fast Foods</title>
+    </head>
+<body>
+  <header>
+    <nav>
+    <div class="logo">
+      FAST <span>FOOD.COM</span>
+      </div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="recipe.html">RECIPE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Welcome to Nigerian's fast food</h1>
+      <p>NIGERIAN'S HAVE BROUGHT FOOD TO YOUR DOORS<br>
+       COME AND ENJOY YOUR DELICIOUS MEAL</p>
+    </section><br>
+    <hero>
+      <h2>WHAT WE OFFER</h2>
+      <feature class="dish">
+         <img src="IMG_20250805_093908.png"alt="jollof rice">
+        <p>THE NIGERIAN'S JOLLOF RICE THAT EVERY PERSON ENJOYS THE MOST</p>
+       </feature >
+        <br>
+        <feature class="dish1">
+        <img src="IMG_20250805_051022.png"alt="meat">
+        <p>THE NIGERIAN'S COW MEAT AND A WATERD GARI WITH STEAMED TOMATOES</p>
+      </feature><br>
+      <feature class="dish2" >
+        <img src="/proj1/IMG_20250805_050853.png"alt="meat and gari">
+        <p>CHECKOUT THE SUPER TASTED NIGERIAN'S FOOD ACROSS THE GLOBE.</p>
+      </feature>
+      <aside>
+        <h3>ABOUT US</h3>
+          THE NIGERIAN'S ARE HERE BRINGING YOU THE
+          MOST DELICIOUS AND WELL KNOWN FOODS IN NIGERIA.
+          LOCATE US AT OBUASI, GHANA AT OLD ESTATE WHERE
+          THERE IS A BRANCH THERE WHERE YOU CAN SATISFY YOURSELF 
+      </aside>
+      <a href="recipe.html"><button type="submit">GET STARTED</button></a>
+    </hero>
+  </main>
+  <footer>
+    <a href="mailto:gilbertababono2@gmail.com">gilbertababono2@gmail.com</a>
+    <a href="https://www.instagram.com/mcdonal360/?utm_source=qr&r=nametag"><i class="fa brand fa instagram"</i>INSTAGRAM</a>
+    <a href="http://www.youtube.com/@GilbertAbabono"><i class="fa brand fa youtube"></i>YOUTUBE</a>
+    ©copyrights reserved from 2020 t0 2025
+    <a href="#">terms and conditions</a>
+  </footer>
+</body>
+
+</html>
